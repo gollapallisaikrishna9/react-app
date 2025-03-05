@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+    :root{
+        --color-BgColor:white;
+        --color-TextColor:black;
+        --color-TextLight:gray
+    }
+
+    :root[class='dark']{
+        --color-BgColor:black;
+        --color-TextColor:white;
+        --color-TextLight:rgb(196, 194, 194)
+    }
