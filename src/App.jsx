@@ -1,23 +1,26 @@
-import React, { useEffect, useState } from 'react'
-import LandingPage from './TailwindBlocks/pages/LandingPage'
+import React, { useEffect, useState } from "react";
+import LandingPage from "./TailwindBlocks/pages/LandingPage";
+import LoginPage from "./TailwindBlocks/pages/LoginPage";
 
 function App() {
-  const [theme,setTheme]=useState('light')
-  useEffect(()=>{
-    if(theme==='dark'){
-      document.documentElement.classList.add('dark')
+  const [theme, setTheme] = useState("light");
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
-    else{
-      document.documentElement.classList.remove('dark')
-    }
-  },[theme])
+  }, [theme]);
 
-  const handleThemeChange=()=>{
-    setTheme(theme==='light'?"dark":'light')
-  }
+  const handleThemeChange = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
   return (
-    <div><LandingPage change={handleThemeChange} theme={theme}/></div>
-  )
+    <div>
+      <LoginPage />
+      {/* <LandingPage change={handleThemeChange} theme={theme} /> */}
+    </div>
+  );
 }
 
-export default App
+export default App;
