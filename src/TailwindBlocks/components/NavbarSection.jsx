@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { StepCake } from "../../svgs/StepCake";
 function NavbarSection({ change, theme, setActive, active }) {
-  const links = ["Home", "Products", "Contact us", "Log out"];
+  const links = ["Home", "Products", "Contact", "Log out"];
   /**
    * Function to navigate to that particular section on click of that link
    * @param {*} section
@@ -10,7 +10,7 @@ function NavbarSection({ change, theme, setActive, active }) {
     let targetId = "";
     if (section === "Home") targetId = "hero";
     if (section === "Products") targetId = "gallery";
-    if (section === "Contact us") targetId = "contact";
+    if (section === "Contact") targetId = "contact";
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {

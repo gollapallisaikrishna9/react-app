@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect,useRef} from "react";
 import NavbarSection from "../components/NavbarSection";
 import HeroSection from "../components/HeroSection";
 import Content from "../components/Content";
@@ -14,6 +14,43 @@ import ScrollToTop from "../components/ScrollToTop";
 
 function LandingPage({ change, theme }) {
   const [active, setActive] = useState("Home");
+     const sections = useRef([
+      { id: "hero", name: "Home" },
+      { id: "gallery", name: "Products" },
+      { id: "contact", name: "Contact" },
+    ]);
+      useEffect(() => {
+      const observerOptions = {
+        root: null,
+        rootMargin: "0px",
+        threshold: 0.4,
+      };
+  
+      const observerCallback = (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const section = sections.current.find((s) => s.id === entry.target.id);
+            if (section) {
+              setActive(section.name);
+            }
+          }
+        });
+      };
+  
+      const observer = new IntersectionObserver(observerCallback, observerOptions);
+  
+      sections.current.forEach((section) => {
+        const el = document.getElementById(section.id);
+        if (el) observer.observe(el);
+      });
+  
+      return () => {
+        sections.current.forEach((section) => {
+          const el = document.getElementById(section.id);
+          if (el) observer.unobserve(el);
+        });
+      };
+    }, []);
   return (
     <div>
       {/* Fixed Navbar */}

@@ -13,7 +13,7 @@ export default function ContactSection({ id }) {
               marginheight="0"
               marginwidth="0"
               scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=TNGO's Colony,+Hyderabad,+Telangana&output=embed"
             ></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">
@@ -21,8 +21,7 @@ export default function ContactSection({ id }) {
                   ADDRESS
                 </h2>
                 <p className="mt-1 text-gray-600">
-                  Photo booth tattooed prism, portland taiyaki hoodie neutra
-                  typewriter
+                  Building A-109, Sai Krishna towers, Near TNGO's central park, TNGO's colony, Hyderabad, Telangana, 500032
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -30,13 +29,13 @@ export default function ContactSection({ id }) {
                   EMAIL
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
-                  example@email.com
+                  saikrishnacakes@email.com
                 </a>
                 <h2 className="title-font font-semibold text-black tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
                 <p className="leading-relaxed mt-1 text-gray-600">
-                  123-456-7890
+                  +91900099989
                 </p>
               </div>
             </div>
@@ -45,8 +44,12 @@ export default function ContactSection({ id }) {
             <h2 className="text-TextColor text-lg mb-1 font-medium title-font">
               Feedback
             </h2>
+            <p className="leading-relaxed mb-5 text-TextLight font-medium">
+              We'd Love to Hear From You!
+            </p>
             <p className="leading-relaxed mb-5 text-TextLight">
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+              Whether you've just tried one of our cakes, placed an order, or visited our store—we want to know what you think!
+Share your feedback, suggestions, or ask us anything. We're always baking up ways to serve you better. 🍰
             </p>
             <div className="relative mb-4">
               <label for="name" className="leading-7 text-sm text-TextColor">
@@ -84,8 +87,7 @@ export default function ContactSection({ id }) {
               Button
             </button>
             <p className="text-xs text-TextLight mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+             We read every message and will get back to you within 24 hours.
             </p>
           </div>
         </div>
