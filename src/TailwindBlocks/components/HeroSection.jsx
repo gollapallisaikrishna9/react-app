@@ -27,11 +27,14 @@ function HeroSection({ id }) {
             </div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600"
-            />
+            <video
+ className="w-full h-[540px] object-fill rounded"
+  src="src\assets\mp4\Cake video.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+/>
           </div>
         </div>
       </section>

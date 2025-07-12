@@ -17,8 +17,8 @@ function App() {
   };
   return (
     <div>
-      <LoginPage />
-      {/* <LandingPage change={handleThemeChange} theme={theme} /> */}
+      {/* <LoginPage /> */}
+      <LandingPage change={handleThemeChange} theme={theme} />
     </div>
   );
 }

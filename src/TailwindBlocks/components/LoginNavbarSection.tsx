@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 export default function LoginNavbarSection({ active, setActive }) {
-  const links = ["Shop", "About us", "Menu", "Contact", "Sign in"];
+  const links = ["Contact","About us","Shop",  "Menu",  "Sign in"];
   const handleNavClick = (section) => {
     let targetId = "";
     if (section === "Menu") targetId = "gallery";

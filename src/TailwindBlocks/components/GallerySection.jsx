@@ -7,11 +7,11 @@ export default function GallerySection({ id }) {
         <div className="container px-5 py-6 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/420x260"
+                  src="src\assets\cake1.png"
                 />
               </a>
               <div className="mt-4">
@@ -25,11 +25,11 @@ export default function GallerySection({ id }) {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/421x261"
+                  src="src\assets\cake2.jpg"
                 />
               </a>
               <div className="mt-4">
@@ -43,11 +43,11 @@ export default function GallerySection({ id }) {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/422x262"
+                  src="src\assets\cake3.jpg"
                 />
               </a>
               <div className="mt-4">
@@ -61,11 +61,11 @@ export default function GallerySection({ id }) {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/423x263"
+                  src="src\assets\cake4.jpg"
                 />
               </a>
               <div className="mt-4">
@@ -79,11 +79,11 @@ export default function GallerySection({ id }) {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/424x264"
+                  src="src\assets\cake5.avif"
                 />
               </a>
               <div className="mt-4">
@@ -97,11 +97,11 @@ export default function GallerySection({ id }) {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/425x265"
+                  src="src\assets\cake6.jpg"
                 />
               </a>
               <div className="mt-4">
@@ -115,11 +115,11 @@ export default function GallerySection({ id }) {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/427x267"
+                  src="src\assets\cake7.jpg"
                 />
               </a>
               <div className="mt-4">
@@ -133,11 +133,11 @@ export default function GallerySection({ id }) {
               </div>
             </div>
             <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a className="block relative h-48 rounded overflow-hidden">
+              <a className="block relative h-80 rounded overflow-hidden">
                 <img
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  src="https://dummyimage.com/428x268"
+                  src="src\assets\cake8.webp"
                 />
               </a>
               <div className="mt-4">
